@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_downward" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SlushSMP</title>
   </head>
@@ -11,12 +12,23 @@
       <nav>
         <ul class="header-list header-list-left">
           <li class="header-item">
-            <a href="/" class="header-link">Home</a>
+            <a href="#home" class="header-link">Home</a>
+          </li>
+          <li class="header-item">
+            <a href="#about" class="header-link">About</a>
+          </li>
+          <li class="header-item">
+            <a href="/" class="header-link">Staff</a>
+          </li>
+        </ul>
+        <ul class="header-list header-list-right">
+          <li class="header-item">
+            <a href="#home" class="header-link"><img class="header-link-img" src="/discord.svg"></a>
           </li>
         </ul>
       </nav>
     </header>
-    <section class="full title-page"><img class="title" src="/slushsmpseason3.png"></section>
-    <section class="full"></section>
+    <section class="full title-page" id="home"><img class="title" src="/slushsmpseason3.png"><a class="scroll-down" href="#about">arrow_downward</a></section>
+    <section class="full" id="about"></section>
   </body>
 </html>

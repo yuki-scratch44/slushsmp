@@ -135,6 +135,7 @@ body{
     border: 1px solid var(--white-glass);
     font-family: "material symbols outlined";
     transition: 0.2s;
+    animation: scroll-down ease 4s;
 }
 .scroll-down:hover{
     box-shadow: var(--glow);
@@ -190,5 +191,19 @@ body{
         height: 4rem;
         position: fixed;
         filter: drop-shadow(0 0 1rem rgba(255, 0, 0, 0.25));
+    }
+}
+@keyframes scroll-down {
+    0% {
+        scale: 0;
+        opacity: 0;
+    }
+    95% {
+        scale: 0;
+        opacity: 0;
+    }
+    100% {
+        scale: 1;
+        opacity: 1;
     }
 }
